@@ -1,0 +1,11 @@
+Perceptron: Clasificador de formas geometricas=> es parte de la red neuronal.
+Tenemos un x1 x2 y x3 al mismo tiempo Tenemos una salida.
+suponete Tenemos edad, metros2 y barrio y la Y es el precio.
+Cada una de nuestras x tiene un W (Weight) esto quiere decir cuanto influllen en nuestra salida.
+La primera salida del Perceptron va a ser (x1 x su W + x2 x su W + x3 x su W + B)
+Dependiendo de tu funcion de Activacion (a) podemos modificar la salida para que sea lieneal, logisitca, etc..
+La red neuronal nos permiten tener mas de una salida, con mas de un W distinto para cada x por salida.
+Todas las entrdas tienen de nombre NEURONAS y las entrdas estan en la input Layer y las salidas en la output Layer
+Mientras mas Layers tenga un modelo mas tiene que entrenarse, por cada valor de input se va a multiplica por cada valor de la layer y asi llegando hasta la salida
+Para cada layer se puede elgir que tipo de salida queremos, para una layer le podemos dar una sigmoide o una linael en forma de Hiperparametro. 
+TensorFlow (Proxima Libreria) PlayGround.Tensorflow
