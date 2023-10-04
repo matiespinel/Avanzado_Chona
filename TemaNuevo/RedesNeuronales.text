@@ -9,3 +9,12 @@ Todas las entrdas tienen de nombre NEURONAS y las entrdas estan en la input Laye
 Mientras mas Layers tenga un modelo mas tiene que entrenarse, por cada valor de input se va a multiplica por cada valor de la layer y asi llegando hasta la salida
 Para cada layer se puede elgir que tipo de salida queremos, para una layer le podemos dar una sigmoide o una linael en forma de Hiperparametro. 
 TensorFlow (Proxima Libreria) PlayGround.Tensorflow
+Escalares: Cualquier punto de la recta sin direccion
+Vectores: Conjunto de escalares en x,y,z. Le da la direccion a los escalares.
+Las x de entrda puedn ser concideradas como un solo vector de X con multiples excalares X = (x1, x2, x3) y lo mismo co los weights.
+ -> ->
+ X . W = x1 . w1 + x2 . w2 + x3 . w3 =  Z1
+ Z1 = a . ( x1 . w1 + x2 . w2 + x3 . w3 + b)
+ Matrices: conjunto de Vectores (multiples salidas como si fueras a tener otro z entonces requeris otros W por ende otro vector)
+ 
+
